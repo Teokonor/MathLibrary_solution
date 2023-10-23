@@ -1,4 +1,5 @@
 ﻿#include "Arithmetic.h"
+#include "Trigonometry.h"
 #include <iostream>
 
 int main()
@@ -8,4 +9,7 @@ int main()
     std::cin >> num1 >> num2;
     std::cout << "Sum: " << sum(num1, num2) << "\nDifference: " << difference(num1, num2) 
         << "\nMultiplexing: " << multiplex(num1, num2) << "\nGrade: " << grade(num1, num2);
+
+    // From First_branch
+    std::cout << "\nsin: " << sinus(num1) << " " << sinus(num2);
 }

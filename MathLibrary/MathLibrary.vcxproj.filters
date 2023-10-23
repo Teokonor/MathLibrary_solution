@@ -18,9 +18,15 @@
     <ClCompile Include="Arithmetic.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Trigonometry.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arithmetic.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigonometry.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
